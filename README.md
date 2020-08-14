@@ -7,3 +7,4 @@ install all the packages required for the project using pip. (packages in the co
 install wheel file of the PyAudio module from "https://www.lfd.uci.edu/~gohlke/pythonlibs/".
 run the wheel file.
 add it to the startup file for it to run on startup.(optional) Or run it on the terminal.
+Go through the code and fill up your id, api keys and other personal information
