@@ -278,15 +278,6 @@ if __name__ == "__main__":
             elif f"{name} joke" in query:
                 say(pyjokes.get_joke())
 
-            # elif "calculate" in query:
-            # app_id= "K4X6YT-VRVY4VRE37"
-            # client = wolframalpha.Client(app_id)
-
-            # indx = input.split().index('calculate')
-            # query = input.split()[indx + 1:]
-            # res = client.query(' '.join(query))
-            # answer = next(res.results).text
-            # assistant_says("The answer is " + answer)
 
             elif f"{name} search" in query or f"{name} play" in query:
 
@@ -439,7 +430,6 @@ if __name__ == "__main__":
                         if ch:
                             Pypdf.write(ch)
 
-                            # NPPR9-FWDCX-D2C8J-H872K-2YT43
 
             elif f"{name} recive email" in query:
                 # recieve()
@@ -482,7 +472,7 @@ if __name__ == "__main__":
                 say("I'm fine, glad you asked me that")
 
             elif f"{name} calculate" in query:
-                app_id = "K4X6YT-VRVY4VRE37"
+                app_id = "your app_id"
                 client = wolframalpha.Client(app_id)
 
                 indx = query.split().index('calculate')
@@ -504,19 +494,7 @@ if __name__ == "__main__":
                 package = take_command()
                 say("here you go to pypi\n")
                 webbrowser.open("https://pypi.org/search/?q=" + package)
-                # spell pypi as peepee while saying the above command
 
-            # elif "what is ai" in query:
-            # speak = [
-            #   "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
-            #  "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
-            # out = random.choice(speak)
-            # say(out)
-            # elif "are you sentient?" in query:
-            #   speak = ["sort of.", "By the strictest dictionary definition of the word 'sentience', I may be.",
-            #           "Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."]
-            # out = random.choice(speak)
-            # say(out)
             elif f"hello {name}" in query:
                 say("Hi sir. Do you have time for a chat?")
                 response = take_command()
