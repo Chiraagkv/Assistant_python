@@ -24,10 +24,10 @@ import re
 import urllib.parse
 import pickle
 import os.path
-mname = "abc"
+mname = "your name"
 num = 0
 
-name = "aunty"
+name = "assistant"
 def say(out_say):
     global num
     num += 1
